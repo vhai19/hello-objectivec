@@ -13,6 +13,8 @@
 		B296F861212F011300413770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B296F860212F011300413770 /* Assets.xcassets */; };
 		B296F864212F011300413770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B296F862212F011300413770 /* LaunchScreen.storyboard */; };
 		B296F867212F011300413770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B296F866212F011300413770 /* main.m */; };
+		B296F873212F037B00413770 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B296F871212F037B00413770 /* HelloWorldViewController.m */; };
+		B296F874212F037B00413770 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B296F872212F037B00413770 /* HelloWorldViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B296F863212F011300413770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B296F865212F011300413770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B296F866212F011300413770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B296F870212F037B00413770 /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		B296F871212F037B00413770 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		B296F872212F037B00413770 /* HelloWorldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				B296F862212F011300413770 /* LaunchScreen.storyboard */,
 				B296F865212F011300413770 /* Info.plist */,
 				B296F866212F011300413770 /* main.m */,
+				B296F870212F037B00413770 /* HelloWorldViewController.h */,
+				B296F871212F037B00413770 /* HelloWorldViewController.m */,
+				B296F872212F037B00413770 /* HelloWorldViewController.xib */,
 			);
 			path = "hello-objective";
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B296F874212F037B00413770 /* HelloWorldViewController.xib in Resources */,
 				B296F864212F011300413770 /* LaunchScreen.storyboard in Resources */,
 				B296F861212F011300413770 /* Assets.xcassets in Resources */,
 				B296F85F212F011100413770 /* Main.storyboard in Resources */,
@@ -141,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B296F873212F037B00413770 /* HelloWorldViewController.m in Sources */,
 				B296F85C212F011100413770 /* ViewController.m in Sources */,
 				B296F867212F011300413770 /* main.m in Sources */,
 				B296F859212F011100413770 /* AppDelegate.m in Sources */,
