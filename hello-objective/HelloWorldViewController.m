@@ -33,5 +33,30 @@
     // Pass the selected object to the new view controller.
 }
 */
+-(IBAction)showMessege {
+    UIAlertController * helloObjectiveC = [UIAlertController
+                                 alertControllerWithTitle:@"Objective-C so sweet"
+                                 message:@"Hello, I love Code - Objective-C"
+                                 preferredStyle:UIAlertControllerStyleAlert];
+    
+//    UIAlertAction* yesButton = [UIAlertAction
+//                                actionWithTitle:@"Yes, please"
+//                                style:UIAlertActionStyleDefault
+//                                handler:^(UIAlertAction * action) {
+//                                    //Handle your yes please button action here
+//                                }];
+    
+    UIAlertAction* noButton = [UIAlertAction
+                               actionWithTitle:@"No"
+                               style:UIAlertActionStyleDefault
+                               handler:^(UIAlertAction * action) {
+                                   //Handle no, thanks button
+                               }];
+    
+//    [helloObjectiveC addAction:yesButton];
+    [helloObjectiveC addAction:noButton];
+    
+    [self presentViewController:helloObjectiveC animated:YES completion:nil];
+}
 
 @end

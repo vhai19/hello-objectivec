@@ -10,4 +10,5 @@
 
 @interface HelloWorldViewController : UIViewController
 
+-(IBAction)showMessege;
 @end
